@@ -31,6 +31,8 @@ public class TesteConsulta {
 			System.out.println("\nDescrição..: " + movimentacao.getDescricao());
 			System.out.println("Valor......: R$" + movimentacao.getValor());
 		}
+		
+		em.close();
 
 	}
 
