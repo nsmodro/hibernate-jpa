@@ -11,7 +11,7 @@ import javax.persistence.Table;
 public class Conta {
 	
 	@Id
-	@GeneratedValue(strategy=GenerationType.SEQUENCE)
+	@GeneratedValue(strategy=GenerationType.IDENTITY)
 	private Integer id; 
 	
 	private String titular;
