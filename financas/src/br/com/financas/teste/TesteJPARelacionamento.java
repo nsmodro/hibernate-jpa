@@ -91,7 +91,7 @@ public class TesteJPARelacionamento {
 		em.persist(m3);
 		em.persist(m4);
 		em.persist(m5);
-		//em.persist(m6);
+		em.persist(m6);
 		
 		
 		em.getTransaction().commit();
